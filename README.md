@@ -1,9 +1,10 @@
 # DataProject-Logica-Python.-Katas
 
 PROYECTO LÓGICA: Katas de Python 
-En este proyecto se desarrollan una serie de ejercicios que consisten en desarrollar código en Python para escribir funciones y programas concretos, probando las habilidades obtenidas tras finalizar todos los módulos teóricos relativos a Python.
+En este proyecto se aplican los conocimientos aprendidos en el módulo "Python". Consiste en desarrollar el código necesario para obtener funciones y programas detallados en cada uno de los ejercicios que componen la práctica.
 
 A continuación se detalla la lista de ejercicios a realizar:
+
 1. Escribe una función que reciba una cadena de texto como parámetro y devuelva un diccionario con las frecuencias de cada letra en la cadena. Los espacios no deben ser considerados.
 2. Dada una lista de números, obtén una nueva lista con el doble de cada valor. Usa la función map().
 3. Escribe una función que tome una lista de palabras y una palabra objetivo como parámetros. La función debe devolver una lista con todas las palabras de la lista original que contengan la palabra objetivo.
