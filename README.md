@@ -18,7 +18,7 @@ A continuación se detalla la lista de ejercicios a realizar:
 11. Escribe un programa que pida al usuario que introduzca su edad. Si el usuario ingresa un valor no numérico o un valor fuera del rango esperado (por ejemplo, menor que 0 o mayor que 120), maneja las excepciones adecuadamente.
 12. Genera una función que al recibir una frase devuelva una lista con la longitud de cada palabra. Usa la función.
 13. Genera una función la cual, para un conjunto de caracteres, devuelva una lista de tuplas con cada letra en mayúsculas y minúsculas. Las letras no pueden estar repetidas .Usa la función map() filter() map().
-14. Crea una función que retorne las palabras de una lista de palabras que comience con una letra en especifico. Usa la función.
+14. Crea una función que retorne las palabras de una lista de palabras que comience con una letra en especifico. Usa la función lambda().
 15. Crea una función lambda que  sume 3 a cada número de una lista dada.
 16. Escribe una función que tome una cadena de texto y un número entero n como parámetros y devuelva una lista de todas las palabras que sean más largas que n. Usa la función filter().
 17. Crea una función que tome una lista de dígitos y devuelva el número correspondiente. Por ejemplo, (5,7,2) corresponde al número quinientos setenta y dos (572). Usa la función reduce().
@@ -67,31 +67,31 @@ mismas.
   2. Agregar 20 unidades de saldo de "Bob".
   3. Hacer una transferencia de 80 unidades desde "Bob" a "Alicia".
   4. Retirar 50 unidades de saldo a "Alicia".
- 37. Crea una función llamada procesar_texto que procesa un texto según la opción especificada: reemplazar_palabras, contar_palabras, eliminar_palabra . Estas opciones son otras funciones que tenemos que definir primero y llamar dentro de la función procesar_texto.
+ 36. Crea una función llamada procesar_texto que procesa un texto según la opción especificada: reemplazar_palabras, contar_palabras, eliminar_palabra . Estas opciones son otras funciones que tenemos que definir primero y llamar dentro de la función procesar_texto.
 Código a seguir:
  1. Crear una función contar_palabras para contar el número de veces que aparece cada palabra en el texto. Tiene que devolver un diccionario.
  2. Crear una función reemplazar_palabras para remplazar una que devolver el texto con el remplazo de palabras.
  3. Crear una función palabra_original del texto por una palabra_nueva. Tiene eliminar_palabra para eliminar una palabra del texto. Tiene que devolver el texto con la palabra 
-eliminada.
+    eliminada.
  4. Crear la función procesar_texto que tome un texto, una opción(entre "contar", "reemplazar", "eliminar") y un número de argumentos variable según la opción indicada.
  Caso de uso:
  Comprueba el funcionamiento completo de la función procesar_texto
-38. Genera un programa que nos diga si es de noche, de día o tarde según la hora proporcionada por el usuario.
-39. Escribe un programa que determine qué calificación en texto tiene un alumno en base a su calificación numérica. 
+37. Genera un programa que nos diga si es de noche, de día o tarde según la hora proporcionada por el usuario.
+38. Escribe un programa que determine qué calificación en texto tiene un alumno en base a su calificación numérica. 
 Las reglas de calificación son:
  - 0 - 69 insuficiente
  - 70 - 79 bien
  - 80 - 89 muy bien
  - 90 - 100 excelente
-40. Escribe una función que tome dos parámetros: figura (una cadena que puede ser "rectangulo", "circulo" o "triángulo") y datos (una tupla con los datos necesarios para calcular el área de la figura).
-41. En este ejercicio, se te pedirá que escribas un programa en Python que utilice condicionales para determinar el monto final de una compra en una tienda en línea, después de aplicar un descuento. El programa debe hacer lo siguiente:
+39. Escribe una función que tome dos parámetros: figura (una cadena que puede ser "rectangulo", "circulo" o "triángulo") y datos (una tupla con los datos necesarios para calcular el área de la figura).
+40. En este ejercicio, se te pedirá que escribas un programa en Python que utilice condicionales para determinar el monto final de una compra en una tienda en línea, después de aplicar un descuento. El programa debe hacer lo siguiente:
  1. Solicita al usuario que ingrese el precio original de un artículo.
  2. Pregunta al usuario si tiene un cupón de descuento (respuesta sí o no).
  3. Si el usuario responde que sí, solicita que ingrese el valor del cupón de descuento.
  4. Aplica el descuento al precio original del artículo, siempre y cuando el valor del cupón sea válido (es decir, mayor 
-a cero). Por ejemplo, descuento de 15€. 
-5. Muestra el precio final de la compra, teniendo en cuenta el descuento aplicado o sin él. 
-6. Recuerda utilizar estructuras de control de flujo como if, elif y else para llevar a cabo estas acciones en tu 
-programa de Python.
+    a cero). Por ejemplo, descuento de 15€. 
+ 5. Muestra el precio final de la compra, teniendo en cuenta el descuento aplicado o sin él. 
+ 6. Recuerda utilizar estructuras de control de flujo como if, elif y else para llevar a cabo estas acciones en tu 
+    programa de Python.
 
 En el otro fichero adjunto se encuentra el desarrollo del código completo.
