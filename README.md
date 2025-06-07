@@ -40,43 +40,42 @@ A continuación se detalla la lista de ejercicios a realizar:
 33. Crea una función lambda que sume elementos correspondientes de dos listas dadas.
 34. Crea la clase Arbol , define un árbol genérico con un tronco y ramas como atributos. Los métodos disponibles son: crecer_tronco, nueva_rama, crecer_ramas, quitar_rama e 
 info_arbol . El objetivo es implementar estos métodos para manipular la estructura del árbol.
- Código a seguir:
-    Inicializar un árbol con un tronco de longitud 1 y una lista vacía de ramas.
-    Implementar el método crecer_tronco para aumentar la longitud del tronco en una unidad.
-    Implementar el método nueva_rama para agregar una nueva rama de longitud 1 a la lista de ramas.
-    Implementar el método crecer_ramas para aumentar en una unidad la longitud de todas las ramas existentes.
-    Implementar el método quitar_rama para eliminar una rama en una posición específica.
-    Implementar el método info_arbol para devolver información sobre la longitud del tronco, el número de ramas y las longitudes de las mismas.
- Caso de uso:
-    Crear un árbol.
-    Hacer crecer el tronco del árbol una unidad.
-    Añadir una nueva rama al árbol.
-    Hacer crecer todas las ramas del árbol una unidad.
-    Añadir dos nuevas ramas al árbol.
-    Retirar la rama situada en la posición 2.
-    Obtener información sobre el árbol.
-35. Crea la clase UsuarioBanco, representa a un usuario de un banco con su nombre, saldo y si tiene o no cuenta corriente. Proporciona métodos para realizar operaciones como retirar dinero, transferir dinero desde otro usuario y agregar dinero al saldo.
- Código a seguir:
-    Inicializar un usuario con su nombre, saldo y si tiene o no cuenta corriente mediante True y False.
-    Implementar el método retirar_dinero para retirar dinero del saldo del usuario. Lanzará un error en caso de no poder hacerse.
-    Implementar el método transferir_dinero para realizar una transferencia desde otro usuario al usuario actual. Lanzará un error en caso de no poder hacerse.
-    Implementar el método agregar_dinero para agregar dinero al saldo del usuario.
- Caso de uso:
-     Crear dos usuarios: "Alicia" con saldo inicial de 100 y "Bob" con saldo inicial de 50, ambos con cuenta corriente.
-     Agregar 20 unidades de saldo de "Bob".
-     Hacer una transferencia de 80 unidades desde "Bob" a "Alicia".
-     Retirar 50 unidades de saldo a "Alicia".
- 36. Crea una función llamada procesar_texto que procesa un texto según la opción especificada: reemplazar_palabras, contar_palabras, eliminar_palabra . Estas opciones son otras funciones que tenemos que definir primero y llamar dentro de la función procesar_texto.
- Código a seguir:
-    Crear una función contar_palabras para contar el número de veces que aparece cada palabra en el texto. Tiene que devolver un diccionario.
-    Crear una función reemplazar_palabras para remplazar una que devolver el texto con el remplazo de palabras.
-    Crear una función palabra_original del texto por una palabra_nueva. Tiene eliminar_palabra para eliminar una palabra del texto. Tiene que devolver el texto con la palabra 
-    eliminada.
-    Crear la función procesar_texto que tome un texto, una opción(entre "contar", "reemplazar", "eliminar") y un número de argumentos variable según la opción indicada.
- Caso de uso:
- Comprueba el funcionamiento completo de la función procesar_texto
-37. Genera un programa que nos diga si es de noche, de día o tarde según la hora proporcionada por el usuario.
-38. Escribe un programa que determine qué calificación en texto tiene un alumno en base a su calificación numérica. 
+Código a seguir:
+- Inicializar un árbol con un tronco de longitud 1 y una lista vacía de ramas.
+- Implementar el método crecer_tronco para aumentar la longitud del tronco en una unidad.
+- Implementar el método nueva_rama para agregar una nueva rama de longitud 1 a la lista de ramas.
+- Implementar el método crecer_ramas para aumentar en una unidad la longitud de todas las ramas existentes.
+- Implementar el método quitar_rama para eliminar una rama en una posición específica.
+- Implementar el método info_arbol para devolver información sobre la longitud del tronco, el número de ramas y las longitudes de las mismas.
+Caso de uso:
+- Crear un árbol.
+- Hacer crecer el tronco del árbol una unidad.
+- Añadir una nueva rama al árbol.
+- Hacer crecer todas las ramas del árbol una unidad.
+- Añadir dos nuevas ramas al árbol.
+- Retirar la rama situada en la posición 2.
+- Obtener información sobre el árbol.
+36. Crea la clase UsuarioBanco, representa a un usuario de un banco con su nombre, saldo y si tiene o no cuenta corriente. Proporciona métodos para realizar operaciones como retirar dinero, transferir dinero desde otro usuario y agregar dinero al saldo.
+Código a seguir:
+- Inicializar un usuario con su nombre, saldo y si tiene o no cuenta corriente mediante True y False.
+- Implementar el método retirar_dinero para retirar dinero del saldo del usuario. Lanzará un error en caso de no poder hacerse.
+- Implementar el método transferir_dinero para realizar una transferencia desde otro usuario al usuario actual. Lanzará un error en caso de no poder hacerse.
+- Implementar el método agregar_dinero para agregar dinero al saldo del usuario.
+Caso de uso:
+- Crear dos usuarios: "Alicia" con saldo inicial de 100 y "Bob" con saldo inicial de 50, ambos con cuenta corriente.
+- Agregar 20 unidades de saldo de "Bob".
+- Hacer una transferencia de 80 unidades desde "Bob" a "Alicia".
+- Retirar 50 unidades de saldo a "Alicia".
+ 37. Crea una función llamada procesar_texto que procesa un texto según la opción especificada: reemplazar_palabras, contar_palabras, eliminar_palabra . Estas opciones son otras funciones que tenemos que definir primero y llamar dentro de la función procesar_texto.
+Código a seguir:
+- Crear una función contar_palabras para contar el número de veces que aparece cada palabra en el texto. Tiene que devolver un diccionario.
+- Crear una función reemplazar_palabras para remplazar una que devolver el texto con el remplazo de palabras.
+- Crear una función palabra_original del texto por una palabra_nueva. Tiene eliminar_palabra para eliminar una palabra del texto. Tiene que devolver el texto con la palabra eliminada.
+- Crear la función procesar_texto que tome un texto, una opción(entre "contar", "reemplazar", "eliminar") y un número de argumentos variable según la opción indicada.
+Caso de uso:
+- Comprueba el funcionamiento completo de la función procesar_texto
+38. Genera un programa que nos diga si es de noche, de día o tarde según la hora proporcionada por el usuario.
+39. Escribe un programa que determine qué calificación en texto tiene un alumno en base a su calificación numérica. 
 Las reglas de calificación son:
  - 0 - 69 insuficiente
  - 70 - 79 bien
@@ -84,11 +83,11 @@ Las reglas de calificación son:
  - 90 - 100 excelente
 39. Escribe una función que tome dos parámetros: figura (una cadena que puede ser "rectangulo", "circulo" o "triángulo") y datos (una tupla con los datos necesarios para calcular el área de la figura).
 40. En este ejercicio, se te pedirá que escribas un programa en Python que utilice condicionales para determinar el monto final de una compra en una tienda en línea, después de aplicar un descuento. El programa debe hacer lo siguiente:
-  Solicita al usuario que ingrese el precio original de un artículo.
-  Pregunta al usuario si tiene un cupón de descuento (respuesta sí o no).
-  Si el usuario responde que sí, solicita que ingrese el valor del cupón de descuento.
-  Aplica el descuento al precio original del artículo, siempre y cuando el valor del cupón sea válido (es decir, mayor a cero). Por ejemplo, descuento de 15€. 
-  Muestra el precio final de la compra, teniendo en cuenta el descuento aplicado o sin él. 
-  Recuerda utilizar estructuras de control de flujo como if, elif y else para llevar a cabo estas acciones en tu programa de Python.
+- Solicita al usuario que ingrese el precio original de un artículo.
+- Pregunta al usuario si tiene un cupón de descuento (respuesta sí o no).
+- Si el usuario responde que sí, solicita que ingrese el valor del cupón de descuento.
+- Aplica el descuento al precio original del artículo, siempre y cuando el valor del cupón sea válido (es decir, mayor a cero). Por ejemplo, descuento de 15€.
+- Muestra el precio final de la compra, teniendo en cuenta el descuento aplicado o sin él.
+- Recuerda utilizar estructuras de control de flujo como if, elif y else para llevar a cabo estas acciones en tu programa de Python.
 
 En el otro fichero adjunto se encuentra el desarrollo del código completo.
